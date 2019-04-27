@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "1085397197899",
+    "firebase_url": "https://homeplantation-96477.firebaseio.com",
+    "project_id": "homeplantation-96477",
+    "storage_bucket": "homeplantation-96477.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085397197899:android:60f66b894c597203",
+        "android_client_info": {
+          "package_name": "com.example.design.homeplantation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085397197899-2gqoba3vgcji6lvaijb968331577dr47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.design.homeplantation",
+            "certificate_hash": "0cc05033347de20b05c9affbc46ad2fe941d9463"
+          }
+        },
+        {
+          "client_id": "1085397197899-6c5oh2p3c9vc3vfj6nts90nilj5cmd6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiD1OcNB5vSH9uO-3JOvQ09j1vVaosi9s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085397197899-6c5oh2p3c9vc3vfj6nts90nilj5cmd6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085397197899:android:a2aff65d5c8268bf",
+        "android_client_info": {
+          "package_name": "com.example.design.homeplantationadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085397197899-ig5hfrnpmq7n1d2sctndk5j933stcjal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.design.homeplantationadmin",
+            "certificate_hash": "e52e73cfad3f4e3b1629bdc3263e86e94a3a0cae"
+          }
+        },
+        {
+          "client_id": "1085397197899-6c5oh2p3c9vc3vfj6nts90nilj5cmd6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiD1OcNB5vSH9uO-3JOvQ09j1vVaosi9s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085397197899-6c5oh2p3c9vc3vfj6nts90nilj5cmd6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

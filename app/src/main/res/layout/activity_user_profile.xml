@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserProfile">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:fontFamily="serif"
+            android:textStyle="bold|italic"
+            android:text="@string/updateuser"/>
+    </LinearLayout>
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageButton
+            android:id="@+id/userprofile_Imagebutton_profileimage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_x="113dp"
+            android:layout_y="46dp"
+            android:src="@drawable/ic_account_circle_black_24dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/imageroundhape"/>
+
+        <ImageButton
+            android:id="@+id/userprofile_Imagebutton_chooseimage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="220dp"
+            android:layout_y="147dp"
+            android:background="@drawable/roundshape"
+            android:src="@drawable/ic_add_a_photo_black_24dp"
+
+            />
+    </AbsoluteLayout>
+    <EditText
+        android:id="@+id/userprofile_username_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_shape"
+        android:inputType="text"
+        android:hint="@string/username"/>
+
+    <EditText
+        android:id="@+id/userprofile_email_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_shape"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"/>
+    <EditText
+        android:id="@+id/userprofile_number_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_shape"
+        android:inputType="phone"
+        android:hint="@string/email"/>
+
+    <Button
+        android:id="@+id/userprofile_update_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:layout_gravity="bottom"
+        android:textColor="@color/white"
+        android:background="@drawable/color_shape"
+        android:layout_margin="20dp"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

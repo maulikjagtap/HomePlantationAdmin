@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryDark">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:fontFamily="serif"
+                android:textStyle="bold|italic"
+                android:text="@string/addgarden"/>
+        </LinearLayout>
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/addgarden_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_x="113dp"
+                android:layout_y="46dp"
+                android:src="@drawable/ic_account_circle_black_24dp"
+                android:background="@drawable/imageroundhape"/>
+
+            <ImageButton
+                android:id="@+id/addgarden_Imagebutton_chooseimage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_x="220dp"
+                android:layout_y="147dp"
+                android:background="@drawable/roundshape"
+                android:src="@drawable/ic_add_a_photo_black_24dp"
+
+                />
+        </AbsoluteLayout>
+
+
+        <EditText
+            android:id="@+id/addgarden_decription_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_shape"
+            android:inputType="text"
+            android:hint="@string/decription"/>
+
+        <Button
+            android:id="@+id/addgarden_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/additeam"
+            android:textColor="@color/white"
+            android:background="@drawable/color_shape"
+            android:layout_margin="20dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

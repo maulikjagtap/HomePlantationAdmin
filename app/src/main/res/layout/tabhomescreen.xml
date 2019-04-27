@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tool="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="16sp"
+            android:text="@string/flower"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView
+            android:id="@+id/tabhomescreen_flower_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:msrv_gravity="start"
+            app:msrv_ms_per_inch="100"
+            app:msrv_snap_count="2"
+
+            tools:listitem="@layout/fruit_row_card" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="16sp"
+            android:text="@string/fruit"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView
+           android:id="@+id/tabhomescreen_fruit_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:msrv_gravity="start"
+            app:msrv_ms_per_inch="100"
+            app:msrv_snap_count="2"
+            tools:listitem="@layout/fruit_row_card" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="16sp"
+            android:text="@string/OutdoorPlant"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView
+            android:id="@+id/tabhomescreen_outdoor_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:msrv_gravity="start"
+            app:msrv_ms_per_inch="100"
+            app:msrv_snap_count="2"
+            tools:listitem="@layout/fruit_row_card" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="16sp"
+            android:text="@string/Indoorplant"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView
+            android:id="@+id/tabhomescreen_indoord_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:msrv_gravity="start"
+            app:msrv_ms_per_inch="100"
+            app:msrv_snap_count="2"
+            tools:listitem="@layout/fruit_row_card" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="16sp"
+            android:text="@string/vegetabe"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView
+            android:id="@+id/tabhomescreen_vegetable_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:msrv_gravity="start"
+            app:msrv_ms_per_inch="100"
+            app:msrv_snap_count="2"
+            tools:listitem="@layout/fruit_row_card" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="16sp"
+            android:text="@string/hybrid"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView
+            android:id="@+id/tabhomescreen_hybrid_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:msrv_gravity="start"
+            app:msrv_ms_per_inch="100"
+            app:msrv_snap_count="2"
+            tools:listitem="@layout/fruit_row_card" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="16sp"
+            android:text="@string/seeds1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView
+            android:id="@+id/tabhomescreen_seed_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:msrv_gravity="start"
+            app:msrv_ms_per_inch="100"
+            app:msrv_snap_count="2"
+            tools:listitem="@layout/fruit_row_card" />
+
+    </LinearLayout>
+
+
+</ScrollView>
